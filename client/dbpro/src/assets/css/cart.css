@@ -1,0 +1,103 @@
+body {
+    background-color: #eaf1e0;
+}
+
+.main {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.center {
+    text-align: center;
+}
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: #82b440;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+hr {
+    background-color: black;
+}
+
+#ribbon {
+    color: black;
+    margin: 5px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.back-ground  {
+    background-color: #82b440;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.white-text-colour {
+    color: white;
+}
+
+.main {
+    position: relative;
+}
+
+.right {
+    position: absolute;
+    right: 4px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #52702b;
+    color: white;
+}
+
+.input {
+    border-radius: 5px;
+}
+.add-to-cart {
+    margin: 5px;
+    background-color: #82b440;
+}
+
+#item {
+    background-color: #bde689;
+}
+
+#green-color {
+    color: #52702b;
+}
+
+#summary {
+    border: 1px solid #8fa771;
+    border-radius: 4px;
+}

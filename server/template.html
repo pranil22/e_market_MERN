@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <mate charest="utf-8" />
+        <title>Payment</title>
+    </head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <body>
+        <div>
+            <div style="text-align:center;">
+                <h3>E-Market</h3>
+                <h5>Payment Receipt</h5>
+            </div>   
+            <div><b>Name: </b>{{ name }}</div>
+            <div><b>Email: </b>{{ email }}</div>
+            <div><b>Address: </b>{{ address }}</div>
+            <br/>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each items}}
+                    <tr>
+                        <td>{{this.name}}</td>
+                        <td>{{this.quantity}}</td>
+                        <td>{{this.price}}</td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+            <br/>
+            <br/>
+            <h5><b>Grand Total: </b>&#x20B9;{{ price }}</h5>
+        </div>
+        
+    </body>
+</html>
